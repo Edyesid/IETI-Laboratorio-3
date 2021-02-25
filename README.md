@@ -76,7 +76,7 @@ username
 
 edwin@gmail.com
 
-### password
+password
 
 prueba123
 ```
