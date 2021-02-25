@@ -1,4 +1,4 @@
-#IETI-Laboratorio-3
+# IETI-Laboratorio-3
 
 # Getting Started with Create React App
 
@@ -75,7 +75,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 edwin@gmail.com
 
-###password
+### password
 
 prueba123
 
