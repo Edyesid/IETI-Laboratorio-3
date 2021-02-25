@@ -18,11 +18,17 @@ class App extends Component {
         );
 
         return (
+           
             <Router>
                 <div className="App">
+                    <ul>
+                        <li><Link to="/">Login</Link></li>
+                        <li><Link to="/home">home</Link></li>
+                    </ul>
+
                     <div>
-                        {!localStorage.getItem("isLoggedIn") && LoginView()}
-                        {localStorage.getItem("isLoggedIn") && DrawerView()}
+                        <Route exact path="/" component={!localStorage.getItem("isLoggedIn") && LoginView}/>
+                        <Route exact path="/home" component={localStorage.getItem("isLoggedIn") && DrawerView}/>
                     </div>
                 </div>
             </Router>
